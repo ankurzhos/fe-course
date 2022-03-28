@@ -58,7 +58,6 @@ header {
 /* MAIN */
 
 .article-block {
-  width: 420px;
   margin: 0;
   padding: 0;
   display: inline-block;
@@ -94,7 +93,8 @@ header {
 }
 
 .content-sections .article-block {
-  width: 421px;
+  width: 420px;
+  vertical-align: middle;
 }
 
 .article-title {
