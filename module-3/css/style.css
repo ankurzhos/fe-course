@@ -22,7 +22,7 @@ h2 {
 
 /* HEADER */
 
-header {
+.main-header {
   margin-top: 77px;
   margin-bottom: 104px;
 }
@@ -80,7 +80,6 @@ header {
 }
 
 .content-sections {
-  margin-top: 30px;
   font-size: 0;
 }
 
@@ -102,7 +101,6 @@ header {
   color: #626262;
   font-family: "Playfair Display", Arial, serif;
   margin-bottom: 38px;
-  margin-top: 30px;
 }
 .article {
   font-size: 14px;
