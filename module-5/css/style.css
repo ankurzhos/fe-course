@@ -51,7 +51,6 @@ img {
 }
 
 .site-navigation {
-  width: 476px;
   margin: 0;
   padding: 0;
   font-size: 14px;
@@ -141,6 +140,12 @@ img {
   top: 230px;
   right: 202px;
 }
+
+.banner-button button:hover,
+.banner-button button:focus {
+  opacity: 1;
+}
+
 /* TITLE NEW COLLECTION*/
 .title {
   font-family: "Roboto", "Arial", "Sans-serif";
@@ -176,10 +181,10 @@ img {
 
 .overlay-buttons {
   position: absolute;
-  top: 50%;
+  top: 46%;
   left: 50%;
   margin-right: -50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, -52%);
 }
 
 .card-buttons button {
@@ -193,7 +198,15 @@ img {
   background-color: transparent;
   cursor: pointer;
   margin-right: 6px;
+}
+
+.card-buttons {
   margin-bottom: 8px;
+  font-size: 0;
+}
+
+.card-buttons button:nth-child(3n) {
+  margin-right: 0;
 }
 
 .card-button-add-to-cart {
@@ -267,7 +280,6 @@ img {
   width: 254px;
   height: 322px;
   margin-right: 30px;
-  margin-bottom: 30px;
   cursor: pointer;
 }
 
@@ -321,7 +333,7 @@ img {
 .feature {
   background-color: rgba(233, 240, 253, 1);
   padding-top: 100px;
-  padding-bottom: 98px;
+  padding-bottom: 100px;
 }
 
 /*FOOTER*/
@@ -336,8 +348,9 @@ img {
   padding: 0;
 }
 
-.location-color {
+.location-color a {
   color: rgba(26, 188, 156, 1);
+  text-decoration: none;
 }
 
 .location {
