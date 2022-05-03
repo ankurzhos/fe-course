@@ -23,10 +23,12 @@ img {
   content: "";
   clear: both;
 }
+
 .container {
   width: 1170px;
   margin: 0 auto;
 }
+
 /* HEADER */
 
 .page-nav {
@@ -46,6 +48,7 @@ img {
 .site-navigation a[href="##"] {
   color: rgba(78, 198, 171, 1);
 }
+
 .site-navigation li:not(:last-child) {
   margin-right: 30px;
 }
@@ -58,6 +61,7 @@ img {
   float: right;
   margin-top: 5px;
 }
+
 .site-navigation a {
   color: #555252;
   font-family: "Open+Sans", "Arial", "Sans-serif";
@@ -66,6 +70,7 @@ img {
   text-decoration: none;
   line-height: 16px;
 }
+
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: rgba(26, 188, 156, 1);
@@ -80,13 +85,21 @@ img {
   background-size: cover;
   background-position: center;
 }
+
+.banner-info {
+  position: relative;
+  min-height: 600px;
+}
+
 .overlay {
   background-color: rgb(0, 0, 0);
   opacity: 52%;
   height: 600px;
+  width: 100%;
+  position: absolute;
 }
 
-.bunner-tittle {
+.banner-tittle {
   position: absolute;
   top: 44%;
   left: 50%;
@@ -97,7 +110,7 @@ img {
   color: #ffffff;
 }
 
-.bunner-tittle h2 {
+.banner-tittle h2 {
   font-weight: 800;
   font-size: 60px;
   line-height: 82px;
@@ -105,14 +118,14 @@ img {
   margin: 0;
 }
 
-.bunner-tittle p {
+.banner-tittle p {
   font-weight: 300;
   font-size: 24px;
   line-height: 54px;
   margin: 0;
 }
 
-.banner-button button {
+.banner-button {
   border: none;
   height: 104px;
   width: 104px;
@@ -128,7 +141,7 @@ img {
   background-position: center;
   margin: 0;
   top: 230px;
-  left: 202px;
+  left: 30px;
 }
 
 .button-after {
@@ -138,11 +151,11 @@ img {
   background-position: center;
   margin: 0;
   top: 230px;
-  right: 202px;
+  right: 30px;
 }
 
-.banner-button button:hover,
-.banner-button button:focus {
+.banner-button:hover,
+.banner-button:focus {
   opacity: 1;
 }
 
