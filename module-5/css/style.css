@@ -25,8 +25,9 @@ img {
 }
 
 .container {
-  width: 1170px;
+  width: 1110px;
   margin: 0 auto;
+  padding: 0;
 }
 
 /* HEADER */
@@ -141,7 +142,7 @@ img {
   background-position: center;
   margin: 0;
   top: 230px;
-  left: 30px;
+  left: 0px;
 }
 
 .button-after {
@@ -151,7 +152,7 @@ img {
   background-position: center;
   margin: 0;
   top: 230px;
-  right: 30px;
+  right: 0px;
 }
 
 .banner-button:hover,
