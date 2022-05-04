@@ -1,0 +1,141 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #999999;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0 auto;
+}
+/* HEADER */
+
+.page-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 28px;
+  margin-bottom: 128px;
+}
+
+.site-logo {
+  display: inline-block;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  width: 500px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.site-navigation-link {
+  position: relative;
+  color: #95e1d3;
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-weight: 400;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.site-navigation-item :hover,
+.site-navigation-item :focus {
+  color: #f38181;
+  transition: color 0.2s linear;
+}
+
+.site-navigation-item :hover::after,
+.site-navigation-item :focus::after {
+  opacity: 1;
+  transition: opacity 0.2s linear;
+}
+
+.site-navigation-link::after {
+  display: block;
+  content: "";
+  background-color: rgba(243, 129, 129, 1);
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  top: 26px;
+  opacity: 0;
+}
+
+/*--SERVICES SECTION--*/
+
+.special-title {
+  font-family: "Kaushan Script", "Arial", "Sans-serif";
+  font-size: 24px;
+  font-weight: 400;
+  color: #333333;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 22px;
+}
+
+.title {
+  position: relative;
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-size: 30px;
+  font-weight: 700;
+  color: #333333;
+  text-align: center;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 110px;
+}
+
+.title::after {
+  display: block;
+  content: "";
+  position: absolute;
+  background-color: rgba(243, 129, 129, 1);
+  width: 60px;
+  height: 4px;
+  margin: 0 auto;
+  top: 66px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* PRODUCTS */
+
+/* NEWS */
+
+/* BUTTON */
+
+/*VISUALLY HIDDEN*/
+.visually-hidden:not(:focus):not(:active),
+input[type="checkbox"].visually-hidden,
+input[type="radio"].visually-hidden {
+  position: absolute;
+
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
