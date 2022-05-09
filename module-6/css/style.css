@@ -78,14 +78,20 @@ img {
 
 /*--SERVICES SECTION--*/
 
+h2,
+h3,
+p {
+  margin: 0;
+  padding: 0;
+}
+
 .special-title {
   font-family: "Kaushan Script", "Arial", "Sans-serif";
   font-size: 24px;
   font-weight: 400;
+  line-height: 22px;
   color: #333333;
   text-align: center;
-  margin: 0;
-  padding: 0;
   margin-bottom: 22px;
 }
 
@@ -94,11 +100,10 @@ img {
   font-family: "Montserrat", "Arial", "Sans-serif";
   font-size: 30px;
   font-weight: 700;
+  line-height: 22px;
   color: #333333;
   text-align: center;
   text-transform: uppercase;
-  margin: 0;
-  padding: 0;
   margin-bottom: 110px;
 }
 
@@ -115,11 +120,88 @@ img {
   transform: translateX(-50%);
 }
 
-/* PRODUCTS */
+/* ITEMS */
 
-/* NEWS */
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 92px;
+}
 
-/* BUTTON */
+.services-list-item {
+  flex-basis: 380px;
+  flex-grow: 0;
+  flex-shrink: 0;
+  margin-bottom: 100px;
+  padding: 0 30px;
+}
+
+.services-list-item:nth-last-child(-n + 3) {
+  margin-bottom: 0;
+}
+
+.name-item::before {
+  display: inline-block;
+  align-items: center;
+  content: "";
+  height: 32px;
+  width: 32px;
+  margin-right: 28px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: transparent;
+  vertical-align: text-top;
+}
+
+.icon-photography::before {
+  background-image: url("..//img/services/photography1.png");
+}
+
+.icon-web-design::before {
+  background-image: url("..//img/services/web-design2.png");
+}
+
+.icon-creativity::before {
+  background-image: url("..//img/services/creativity3.png");
+}
+.icon-seo::before {
+  background-image: url("..//img/services/seo4.png");
+}
+.icon-css-html::before {
+  background-image: url("..//img/services/css-html5.png");
+}
+.icon-digital::before {
+  background-image: url("..//img/services/digital6.png");
+}
+
+/* .services-list-block {
+  display: inline-block;
+} */
+
+.name-item {
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  text-transform: uppercase;
+  color: #333333;
+  line-height: 17px;
+}
+
+.about-item {
+  font-family: "Roboto", "Arial", "Sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  padding-left: 62px;
+}
+
+/* */
+
+/*  */
 
 /*VISUALLY HIDDEN*/
 .visually-hidden:not(:focus):not(:active),
