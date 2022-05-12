@@ -178,10 +178,6 @@ p {
   background-image: url("..//img/services/digital6.png");
 }
 
-/* .services-list-block {
-  display: inline-block;
-} */
-
 .name-item {
   font-family: "Montserrat", "Arial", "Sans-serif";
   font-weight: 400;
@@ -199,9 +195,111 @@ p {
   padding-left: 62px;
 }
 
-/* */
+/* TEAM SECTION*/
 
-/*  */
+.about-team {
+  font-family: "Roboto", "Arial", "Sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+  margin: 0 112px;
+  padding: 0 24px;
+  margin-bottom: 92px;
+}
+
+.team-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+  margin-bottom: 82px;
+}
+
+.team-list-image {
+  margin-bottom: 30px;
+}
+
+.team-list-name {
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: #333333;
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+.team-list-ocupation {
+  font-family: "Roboto", "Arial", "Sans-serif";
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  line-height: 24px;
+  text-align: center;
+}
+
+/* FOOTER */
+
+.footer-info {
+  border-top: 2px solid rgba(229, 229, 229, 1);
+  display: flex;
+  justify-content: space-between;
+}
+
+.location {
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #333333;
+  margin-top: 22px;
+  margin-bottom: 24px;
+}
+
+.location-color a {
+  color: #f38181;
+  text-decoration: none;
+}
+
+.singup-form {
+  display: inline-block;
+  margin-top: 8px;
+  font-size: 0;
+  vertical-align: middle;
+}
+
+.singup-form input[type="email"] {
+  font-family: "Roboto", "Arial", "Sans-serif";
+  color: #999999;
+  font-weight: 300;
+  font-style: italic;
+  font-size: 14px;
+  border: 1px solid rgba(231, 231, 231, 1);
+  width: 230px;
+  height: 40px;
+  margin: 0;
+  padding: 14px;
+}
+
+.subscribe-button {
+  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-weight: 700;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 24px;
+  color: #ffffff;
+  border: none;
+  background-color: rgba(149, 225, 211, 1);
+  width: 150px;
+  height: 40px;
+  padding: 8px 30px;
+  margin: 0;
+  text-align: center;
+  cursor: pointer;
+}
 
 /*VISUALLY HIDDEN*/
 .visually-hidden:not(:focus):not(:active),
