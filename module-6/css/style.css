@@ -252,7 +252,7 @@ p {
 
 .photo-color-block:hover .overlay-card {
   opacity: 1;
-  transition: opacity 0.2s linear;
+  transition: transform 0.3s linear, opacity 0.2s linear;
 }
 
 .overlay-buttons {
@@ -265,7 +265,6 @@ p {
 
 .overlay-buttons button {
   border: none;
-  background-size: 26px;
   height: 56px;
   width: 56px;
   background-repeat: no-repeat;
