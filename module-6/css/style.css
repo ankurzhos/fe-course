@@ -48,7 +48,7 @@ img {
 .site-navigation-link {
   position: relative;
   color: #95e1d3;
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   text-transform: uppercase;
   text-decoration: none;
@@ -86,7 +86,7 @@ p {
 }
 
 .special-title {
-  font-family: "Kaushan Script", "Arial", "Sans-serif";
+  font-family: "Kaushan Script", "Arial", sans-serif;
   font-size: 24px;
   font-weight: 400;
   line-height: 22px;
@@ -97,7 +97,7 @@ p {
 
 .title {
   position: relative;
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-size: 30px;
   font-weight: 700;
   line-height: 22px;
@@ -158,28 +158,28 @@ p {
 }
 
 .icon-photography::before {
-  background-image: url("..//img/services/photography1.png");
+  background-image: url("../img/services/photography1.png");
 }
 
 .icon-web-design::before {
-  background-image: url("..//img/services/web-design2.png");
+  background-image: url("../img/services/web-design2.png");
 }
 
 .icon-creativity::before {
-  background-image: url("..//img/services/creativity3.png");
+  background-image: url("../img/services/creativity3.png");
 }
 .icon-seo::before {
-  background-image: url("..//img/services/seo4.png");
+  background-image: url("../img/services/seo4.png");
 }
 .icon-css-html::before {
-  background-image: url("..//img/services/css-html5.png");
+  background-image: url("../img/services/css-html5.png");
 }
 .icon-digital::before {
-  background-image: url("..//img/services/digital6.png");
+  background-image: url("../img/services/digital6.png");
 }
 
 .name-item {
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   text-transform: uppercase;
@@ -188,7 +188,7 @@ p {
 }
 
 .about-item {
-  font-family: "Roboto", "Arial", "Sans-serif";
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -198,7 +198,7 @@ p {
 /* TEAM SECTION*/
 
 .about-team {
-  font-family: "Roboto", "Arial", "Sans-serif";
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -217,10 +217,6 @@ p {
   margin-bottom: 82px;
 }
 
-.team-list-image {
-  margin-bottom: 30px;
-}
-
 .photo-background-blue {
   position: absolute;
   background-color: #95e1d3;
@@ -231,11 +227,12 @@ p {
 .photo-color-block:hover,
 .photo-color-block:focus {
   transform: translate(-10px, -10px);
-  transition: background-color 0.2s linear;
+  transition: transform 0.3s linear, background-color 0.2s linear;
 }
 
 .photo-color-block {
   position: relative;
+  margin-bottom: 30px;
 }
 
 .overlay-card {
@@ -252,7 +249,7 @@ p {
 
 .photo-color-block:hover .overlay-card {
   opacity: 1;
-  transition: transform 0.3s linear, opacity 0.2s linear;
+  transition: opacity 0.2s linear;
 }
 
 .overlay-buttons {
@@ -271,11 +268,10 @@ p {
   background-position: center;
   background-color: #fce38a;
   cursor: pointer;
-  margin-right: 1px;
 }
 
 .overlay-buttons button:not(:last-child) {
-  margin-right: 1;
+  margin-right: 1px;
 }
 
 .card-button-facebook {
@@ -298,7 +294,7 @@ p {
 }
 
 .team-list-name {
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
@@ -309,7 +305,7 @@ p {
 }
 
 .team-list-ocupation {
-  font-family: "Roboto", "Arial", "Sans-serif";
+  font-family: "Roboto", "Arial", sans-serif;
   font-weight: 300;
   font-style: italic;
   font-size: 14px;
@@ -319,23 +315,20 @@ p {
 
 /* FOOTER */
 
-.page-footer {
-  margin-bottom: 24px;
-}
-
 .footer-info {
   border-top: 2px solid rgba(229, 229, 229, 1);
   display: flex;
   justify-content: space-between;
+  align-items: center;
+  padding: 10px 0;
 }
 
 .location {
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   color: #333333;
-  margin-top: 22px;
 }
 
 .location-color a {
@@ -345,13 +338,12 @@ p {
 
 .singup-form {
   display: inline-block;
-  margin-top: 8px;
   font-size: 0;
   vertical-align: middle;
 }
 
 .singup-form input[type="email"] {
-  font-family: "Roboto", "Arial", "Sans-serif";
+  font-family: "Roboto", "Arial", sans-serif;
   color: #999999;
   font-weight: 300;
   font-style: italic;
@@ -364,7 +356,7 @@ p {
 }
 
 .subscribe-button {
-  font-family: "Montserrat", "Arial", "Sans-serif";
+  font-family: "Montserrat", "Arial", sans-serif;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 14px;
@@ -372,8 +364,6 @@ p {
   color: #ffffff;
   border: none;
   background-color: rgba(149, 225, 211, 1);
-  width: 150px;
-  height: 40px;
   padding: 8px 30px;
   margin: 0;
   text-align: center;
